@@ -1,6 +1,6 @@
 node(){
  sh ''' 
- uptime
- hostname
+ free -h
+ df -h
 '''
 }
